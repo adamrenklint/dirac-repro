@@ -1,0 +1,3 @@
+{:require  [dirac-repro.core]
+ :init-fns [dirac-repro.core/init]
+ :boot-reload {:on-jsload dirac-repro.core/init}}
